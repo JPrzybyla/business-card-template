@@ -1,0 +1,256 @@
+html, body{
+    font-family: 'Lato', sans-serif;
+    overflow-x: hidden;
+    padding:0;
+    margin: 0;
+    font-size: 16px;
+    scroll-behavior: smooth;
+    background-color: #e6e6e6
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    background: url("bg2.jpg") center no-repeat #333333;
+    background-size: cover;
+    background-blend-mode: soft-light;
+}
+.nav{
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    padding: 0.5%;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    color: #ffffff;
+}
+.navScrolled{
+    background-color: #ffffff;
+    color: #000000;
+    box-shadow: 0 3px 1rem rgba(0, 0, 0, 0.1);
+}
+a:visited, a:link{
+    text-decoration: none;
+    color: inherit;
+}
+li{
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 1%;
+    padding-right: 1%;
+    cursor: pointer;
+    margin-left: 1%;
+    margin-right: 1%;
+    transition: text-decoration 1s;
+}
+li:hover{
+    text-decoration: #00ffff underline solid ;
+    text-decoration-thickness: 20%;
+}
+.content{
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    text-align: center;
+}
+h1{
+    font-size: 70px;
+    letter-spacing: 5px;
+}
+h2{
+    font-size: 20px;
+    font-weight: lighter;
+}
+.POicon{
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+    cursor: pointer;
+}
+.containerTwo{
+    background-color: #e6e6e6;
+    text-align: center;
+
+}
+p{
+    color: #0d0d0d;
+}
+.infoHeader{
+    font-size: 30px;
+    font-weight: 400;
+    padding-top: 5%;
+    letter-spacing: 1px;
+}
+.infoContent{
+    font-size: 15px;
+    width: 50%;
+    margin: auto;
+}
+.AboutmeName{
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+.AboutmeContent{
+ letter-spacing: 1px;
+}
+.ProfPic{
+    width: 15%;
+    height: 15%;
+    margin: 5%;
+    border: 4px solid #ffffff;
+    border-radius: 100%;
+}
+.AboutmeButton{
+    width: 20%;
+    cursor: pointer;
+    margin: 5%;
+    padding: 2%;
+    box-sizing: border-box;
+    background-color: #00ace6;
+    color: #e6e6e6;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: box-shadow 0.2s;
+
+}
+.AboutmeButton:focus{
+    outline: none;
+}
+.AboutmeButton:hover{
+    box-shadow: 10px 10px 37px -12px rgba(0,0,0,0.75);
+}
+.containerThree{
+    background: url("bg3.jpg") center no-repeat #333333;
+    background-size: cover;
+    background-blend-mode: soft-light;
+    height: 33vh;
+}
+.countContainer{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 50%;
+    text-align: center;
+    font-size: 200%;
+}
+.countBox{
+    float: left;
+    color: #e6e6e6;
+    width: 33%;
+}
+.countContent{
+    color: #e6e6e6;
+}
+.containerFour{
+    text-align: center;
+}
+.servicesBox{
+    width: 50%;
+    height: 25vh;
+    margin: 5%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.box{
+    width: 50%;
+    box-sizing: border-box;
+    float: left;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.servicesHeader{
+    font-size: 30px;
+    letter-spacing: 1px;
+    text-decoration: #00ace6 underline;
+}
+.servicesContent{
+    letter-spacing: 1px;
+    text-align: center;
+
+}
+.fa-cogs, .fa-bullhorn, .fa-react{
+    font-size: 60px;
+}
+.containerFive{
+    height: 40vh;
+    background: url("bg4.jpg") center no-repeat #333333;
+    background-size: cover;
+    background-blend-mode: soft-light;
+    text-align: center;
+}
+.contactHeader{
+    color: #e6e6e6;
+}
+.contentFive{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 25%;
+    box-sizing: border-box;
+}
+.contactMessage{
+    width: 100% !important;
+    height: 50px;
+    resize: none;
+}
+.form{
+    text-align: left;
+    color: #e6e6e6;
+    font-size: 20px;
+}
+.contactBox{
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+}
+.CBOne{
+    padding-right: 2%;
+}
+.CBTwo{
+    padding-left: 2%;
+}
+input[type=text]{
+    width: 100%;
+    outline: none;
+}
+input[value=Send]{
+    width: 50%;
+    outline: none;
+    margin: 2%;
+    padding: 2%;
+    cursor: pointer;
+    background-color: #00ace6;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: #e6e6e6;
+    font-weight: bold;
+}
+input[type=button]:hover{
+    box-shadow: 10px 10px 37px -12px rgba(0,0,0,0.75);
+}
+input[name=topic], input[name=email]{
+    height: 30px;
+}
+.Footer{
+    text-align: center;
+    font-size: 10px;
+}
+.socialsFooter{
+    text-align: center;
+    width: 30%;
+    margin: auto;
+}
+.iconFooter{
+    float: left;
+    box-sizing: border-box;
+    padding: 2%;
+    width: 33%;
+}
+

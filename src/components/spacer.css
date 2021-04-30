@@ -1,0 +1,21 @@
+.spacer{
+    width: 20vh;
+    margin: auto;
+    height: 1vh;
+}
+.dots{
+    height: 1vh;
+    width: 1vh;
+    background-color: #00ffff;
+    float: left;
+    border-radius: 20px;
+}
+.line{
+    height: 0.25vh;
+    background-color: #00ffff;
+    float: left;
+    width: 18vh;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
